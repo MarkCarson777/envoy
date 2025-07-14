@@ -1,0 +1,110 @@
+/* Global Styles */
+
+html {
+  height: 100%;
+  font-size: 16px; /* Base font size for rem calculations */
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  margin-left: 2.25rem; /* 36px */
+  margin-right: 2.25rem; /* 36px */
+  background-color: white;
+  color: black;
+}
+
+/* Typography */
+
+.banner {
+  font-family: "Poppins", sans-serif;
+  font-size: 7.75rem; /* 124px */
+  font-weight: 200;
+  line-height: 1;
+  margin-top: 1rem; /* 16px */
+  flex-grow: 1;
+}
+
+.text {
+  font-family: "Work Sans", sans-serif;
+  line-height: 1.75rem; /* 28px */
+  margin: 0;
+}
+
+.tagline {
+  font-family: "Outfit", sans-serif;
+  font-weight: 200;
+  margin-top: 0.5rem; /* 8px */
+  margin-right: 1rem; /* 16px */
+}
+
+.description {
+  font-size: 1.5rem; /* 24px */
+  font-weight: 300;
+  margin-bottom: 2.5rem; /* 40px */
+}
+
+.signature {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  font-size: 1.5rem; /* 24px */
+  margin-bottom: 2.5rem; /* 40px */
+}
+
+/* Layout Helpers */
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.items-right {
+  align-items: flex-end;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+/* Structural Elements */
+
+.header {
+  height: 6.25rem; /* 100px */
+  border-bottom: 1px solid black;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  height: 6.25rem; /* 100px */
+  border-top: 1px solid black;
+}
+
+/* Components */
+.logo {
+  width: 12.5rem; /* 200px */
+  height: 3.125rem; /* 50px */
+  margin-top: 0.625rem; /* 10px */
+}
+
+.arrow {
+  margin-right: 1rem; /* 16px */
+}
+
+.email {
+  text-decoration: none;
+  color: black;
+}
