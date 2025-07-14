@@ -14,6 +14,45 @@
     />
     <meta name="author" content="Envoy" />
 
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://builtbyenvoy.com/" />
+    <meta
+      property="og:title"
+      content="Envoy - Digital Identity Experts for Food & Beverage Brands"
+    />
+    <meta
+      property="og:description"
+      content="Built on decades of specialist food-and-beverage expertise, we create enduring digital identities for innovators, challengers, and industry leaders."
+    />
+    <meta
+      property="og:image"
+      content="https://builtbyenvoy.com/assets/envoy-logo.svg"
+    />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://builtbyenvoy.com/" />
+    <meta
+      property="twitter:title"
+      content="Envoy - Digital Identity Experts for Food & Beverage Brands"
+    />
+    <meta
+      property="twitter:description"
+      content="Built on decades of specialist food-and-beverage expertise, we create enduring digital identities for innovators, challengers, and industry leaders."
+    />
+    <meta
+      property="twitter:image"
+      content="https://builtbyenvoy.com/assets/envoy-logo.svg"
+    />
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/svg+xml" href="./assets/envoy-logo.svg" />
+    <link rel="apple-touch-icon" href="./assets/envoy-logo.svg" />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://builtbyenvoy.com/" />
+
     <link rel="stylesheet" href="index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -22,29 +61,27 @@
       rel="stylesheet"
     />
   </head>
-  <body class="flex flex-col">
-    <header class="flex items-center justify-between header">
-      <img src="./assets/envoy-logo.svg" class="logo" />
-      <div class="flex items-center">
+  <body>
+    <header class="header" role="banner">
+      <img src="./assets/envoy-logo.svg" class="logo" alt="Envoy logo" />
+      <div class="email">
         <img
           src="./assets/long-arrow.svg"
           alt="arrow"
-          class="arrow"
           role="presentation"
+          aria-hidden="true"
         />
-        <a href="mailto:info@builtbyenvoy.com" class="text email"
+        <a href="mailto:info@builtbyenvoy.com" aria-label="Contact us via email"
           >info@builtbyenvoy.com</a
         >
       </div>
     </header>
 
-    <div class="banner" role="banner" aria-live="polite">coming soon</div>
+    <h1 class="banner" role="banner" aria-live="polite">coming soon</h1>
 
-    <main class="flex flex-col items-right description">
-      <p class="text">
-        Built on decades of specialist food-and-beverage expertise,
-      </p>
-      <p class="text">
+    <main class="description" role="main">
+      <p>Built on decades of specialist food-and-beverage expertise,</p>
+      <p>
         we create enduring digital identities for innovators, challengers, and
         industry leaders.
       </p>
@@ -52,20 +89,18 @@
 
     <section class="signature">
       <span class="tagline">Built to represent you, Built by</span>
-      <img src="./assets/envoy-logo.svg" class="logo" />
+      <img src="./assets/envoy-logo.svg" class="logo" alt="Envoy" />
     </section>
 
     <footer class="footer">
-      <div class="flex items-center">
+      <div class="email">
         <img
           src="./assets/long-arrow.svg"
           alt="arrow"
-          class="arrow"
           role="presentation"
+          aria-hidden="true"
         />
-        <a href="mailto:info@builtbyenvoy.com" class="text email"
-          >info@builtbyenvoy.com</a
-        >
+        <a href="mailto:info@builtbyenvoy.com">info@builtbyenvoy.com</a>
       </div>
     </footer>
   </body>
